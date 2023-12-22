@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* Lets create global css variables */
+:root {
+  --color-green: #34C94B;
+  --color-black: #121212;
+  --color-white: #fff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* margin is 0 for all elements */
+* {
+  margin: 0;
+}
+/* height 100% */
+html,
+body {
+  height: 100%;
+}
+
+/* Figma design of body */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* svg */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* font inherit */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* overflow safety net */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* isolation */
+#root,
+#__next {
+  isolation: isolate;
 }
