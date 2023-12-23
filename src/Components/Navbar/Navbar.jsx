@@ -1,15 +1,20 @@
 import styles from "./Navbar.module.css";
-import logo from "../../assets/qtify.png";
+import Logo from "../Logo/Logo";
 import Button from "../Button/Button";
 import Search from "../Search/Search";
 
-function Navbar() {
+function Navbar({ searchData }) {
   return (
-    <div className={styles.wrapper}>
-      <img src={logo} alt="qtify" />
-      <Search placeholder="Search a album of your choice" />
+    <nav className={styles.wrapper}>
+      <a href="/">
+        <Logo />
+      </a>
+      <Search
+        searchData={searchData}
+        placeholder="Search a album of your choice"
+      />
       <Button>Give Feedback</Button>
-    </div>
+    </nav>
   );
 }
 

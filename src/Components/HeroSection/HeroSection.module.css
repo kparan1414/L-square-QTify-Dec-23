@@ -1,0 +1,16 @@
+.wrapper {
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: inherit; */
+  text-align: center;
+  gap: 30px;
+}
+
+/* .text {
+  padding-inline: 10px;
+  width: 545px;
+  height: 100px;
+  text-align: center;
+} */
