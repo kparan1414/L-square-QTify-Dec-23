@@ -63,3 +63,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+a,
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+}

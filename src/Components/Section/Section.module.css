@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+  /* background-color: var(--color-black); */
+  /* i dont think the above prop is necessary  */
+  gap: 40px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: baseline; */
+}
+
+.toggleText {
+  color: var(--color-green);
+  cursor: pointer;
+}

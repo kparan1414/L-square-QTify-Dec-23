@@ -24,6 +24,7 @@
 }
 
 .pill {
+  font-size: x-small;
   border-radius: 10px;
   background-color: var(--color-black);
   color: var(--color-white);
@@ -35,6 +36,7 @@
 /* what is the significance of below prop */
 .title {
   margin-top: 6px;
+  color: var(--color-white);
   overflow: hidden;
   text-overflow: ellipsis;
   -webkit-line-clamp: 2;
