@@ -23,7 +23,7 @@ function Carousel({ data, component }) {
       <Swiper
         style={{ padding: "0px 20px" }}
         modules={[Navigation]}
-        slidesPerView={"auto"}
+        slidesPerView={6}
         spaceBetween={80}
       >
         <Controls data={data} />
