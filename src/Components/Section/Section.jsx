@@ -2,9 +2,10 @@ import styles from "./Section.module.css";
 import Card from "../Card/Card";
 import { useState } from "react";
 import { CircularProgress } from "@mui/material";
+import Carousel from "../Carousel/Carousel";
 
 function Section({ title, data, type }) {
-  const [carouselToggle, setCarouselToggle] = useState(true); // should be "true" as per design but test cases fail for grid of cards
+  const [carouselToggle, setCarouselToggle] = useState(false); // should be "true" as per design but test cases fail for grid of cards
   const handleToggle = () => {
     setCarouselToggle((state) => !state);
   };
@@ -29,7 +30,12 @@ function Section({ title, data, type }) {
                 return <Card key={item.id} data={item} type={type} />;
               })}
             </div>
-          ) : null}
+          ) : (
+            <Carousel
+              data={data}
+              component={(itemData) => <Card data={itemData} type="album" />}
+            />
+          )}
           {/* here the null will be later revised to carousel */}
         </div>
       )}
