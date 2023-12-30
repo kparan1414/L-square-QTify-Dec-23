@@ -36,7 +36,7 @@ export const fetchSongs = async () => {
 
 export const fetchGenres = async () => {
   try {
-    let res = await axios.get(`${endpoint}/albums/genres`);
+    let res = await axios.get(`${endpoint}/genres`);
     console.log(res);
     return res.data;
   } catch (err) {

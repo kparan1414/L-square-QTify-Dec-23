@@ -3,7 +3,12 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 // lets import services from api folder
-import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
+import {
+  fetchTopAlbums,
+  fetchNewAlbums,
+  fetchSongs,
+
+} from "./api/api";
 import { Outlet } from "react-router-dom";
 
 function App() {
@@ -28,7 +33,7 @@ function App() {
   }, []);
 
   // after the above useEff we'll have
-  const { topAlbums = [], newAlbums = [], songs = [] } = data;
+  const { topAlbums = [], newAlbums = [], songs = [],} = data;
   // console.log(data);
 
   return (
