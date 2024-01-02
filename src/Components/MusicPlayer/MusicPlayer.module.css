@@ -1,0 +1,43 @@
+.player {
+  margin: -20px auto 0px auto;
+  font-size: 14px;
+  /* border: 1px solid red; */
+  padding: 10px 15px;
+  position: relative;
+}
+.icon {
+  margin-inline: auto;
+}
+.barWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+.bar {
+  min-width: 43rem;
+  height: 10px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  position: relative;
+}
+.barChild {
+  min-width: 8rem;
+  height: 10px;
+  background-color: var(--color-green);
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+}
+.songDetail {
+  height: 82px;
+  width: 180px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 12px;
+}
+.songText {
+  padding: 5px;
+}

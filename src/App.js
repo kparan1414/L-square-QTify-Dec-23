@@ -3,13 +3,9 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 // lets import services from api folder
-import {
-  fetchTopAlbums,
-  fetchNewAlbums,
-  fetchSongs,
-
-} from "./api/api";
+import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import { Outlet } from "react-router-dom";
+import MusicPlayer from "./Components/MusicPlayer/MusicPlayer";
 
 function App() {
   // const [searchData, setSearchData] = useState("");
@@ -33,13 +29,14 @@ function App() {
   }, []);
 
   // after the above useEff we'll have
-  const { topAlbums = [], newAlbums = [], songs = [],} = data;
+  const { topAlbums = [], newAlbums = [], songs = [] } = data;
   // console.log(data);
 
   return (
     <div>
       <Navbar searchData={[...topAlbums, ...newAlbums]} />
       <Outlet context={{ data: { topAlbums, newAlbums, songs } }} />
+      <MusicPlayer />
     </div>
   );
 }
