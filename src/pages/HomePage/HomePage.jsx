@@ -1,8 +1,9 @@
-import style from "./HomePage.module.css";
+import styles from "./HomePage.module.css";
 import { useOutletContext } from "react-router-dom";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import Section from "../../Components/Section/Section";
-import { fetchGenres } from "../../api/api";
+import { fetchGenres, fetchFAQs } from "../../api/api";
+import FAQ from "../../Components/FAQ/FAQ";
 
 function HomePage() {
   const { data } = useOutletContext();
@@ -12,15 +13,18 @@ function HomePage() {
   return (
     <>
       <HeroSection />
-      <div className={style.stack}>
+      <div className={styles.stack}>
         <Section title="Top Albums" data={topAlbums} type="album" />
         <Section title="New Albums" data={newAlbums} type="album" />
+        <hr className={styles.border} />
         <Section
           title="Songs"
           data={songs}
           filterSource={fetchGenres}
           type="song"
         />
+        <hr className={styles.border} />
+        <FAQ faqSource={fetchFAQs} />
       </div>
     </>
   );

@@ -5,3 +5,7 @@
   padding: 0px 30px 60px 30px;
   /* how is the above prop deduced */
 }
+
+.border {
+  border-color: var(--color-green);
+}

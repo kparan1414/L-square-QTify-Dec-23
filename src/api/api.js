@@ -20,7 +20,7 @@ export const fetchNewAlbums = async () => {
     console.log(res);
     return res.data;
   } catch (err) {
-    console.log("Error during fetching of albums", err);
+    console.log("Error during fetching of new albums", err);
   }
 };
 
@@ -40,6 +40,16 @@ export const fetchGenres = async () => {
     console.log(res);
     return res.data;
   } catch (err) {
-    console.log("Error during fetching of albums", err);
+    console.log("Error during fetching of genres", err);
+  }
+};
+
+export const fetchFAQs = async () => {
+  try {
+    let res = await axios.get(`${endpoint}/faq`);
+    console.log(res);
+    return res.data;
+  } catch (err) {
+    console.log("Error during fetching of FAQs", err);
   }
 };
