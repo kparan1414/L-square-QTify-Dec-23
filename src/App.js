@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import { useEffect, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
@@ -6,10 +5,12 @@ import Navbar from "./Components/Navbar/Navbar";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api";
 import { Outlet } from "react-router-dom";
 import MusicPlayer from "./Components/MusicPlayer/MusicPlayer";
+import Modal from "./Components/Modal/Modal";
 
 function App() {
   // const [searchData, setSearchData] = useState("");
   const [data, setData] = useState({});
+  const [isFeedbackModalOpen, setIsFeedbackModalOpen] = useState(false);
   // below func fetches all api data & stores it in a state
   const generateData = (key, fetch) => {
     fetch().then((data) => {
@@ -20,6 +21,13 @@ function App() {
         };
       });
     });
+  };
+
+  const handleOpenFeedbackModal = () => {
+    setIsFeedbackModalOpen(true);
+  };
+  const handleCloseFeedbackModal = () => {
+    setIsFeedbackModalOpen(false);
   };
 
   useEffect(() => {
@@ -34,9 +42,19 @@ function App() {
 
   return (
     <div>
-      <Navbar searchData={[...topAlbums, ...newAlbums]} />
+      <Navbar
+        searchData={[...topAlbums, ...newAlbums]}
+        handleFeedbackBtn={handleOpenFeedbackModal}
+      />
       <Outlet context={{ data: { topAlbums, newAlbums, songs } }} />
       <MusicPlayer />
+      <Modal
+        isOpen={isFeedbackModalOpen}
+        hasCloseBtn
+        onClose={handleCloseFeedbackModal}
+      >
+        Hello
+      </Modal>
     </div>
   );
 }

@@ -1,0 +1,18 @@
+.modal {
+  margin: 30px auto;
+  min-width: 32rem;
+  min-height: 30rem;
+  padding: 32px;
+  border: 0;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: hsl(0 0% 0% / 10%) 0 0 0.5rem 0.25rem;
+}
+.modal::backdrop {
+  background: hsl(0 0% 0% / 50%);
+}
+.closeBtn {
+  position: absolute;
+  top: 0.25em;
+  right: 0.25em;
+}

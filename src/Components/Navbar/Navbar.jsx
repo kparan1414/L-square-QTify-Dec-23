@@ -4,7 +4,7 @@ import Button from "../Button/Button";
 import Search from "../Search/Search";
 import { Link } from "react-router-dom";
 
-function Navbar({ searchData }) {
+function Navbar({ searchData, handleFeedbackBtn }) {
   return (
     <nav className={styles.wrapper}>
       <Link to="/">
@@ -14,7 +14,7 @@ function Navbar({ searchData }) {
         searchData={searchData}
         placeholder="Search a album of your choice"
       />
-      <Button>Give Feedback</Button>
+      <Button handleClick={handleFeedbackBtn}>Give Feedback</Button>
     </nav>
   );
 }
