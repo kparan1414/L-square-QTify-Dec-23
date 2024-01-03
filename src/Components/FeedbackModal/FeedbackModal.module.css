@@ -1,0 +1,28 @@
+.wrapper {
+  text-align: center;
+}
+.row {
+  margin-top: 1.5rem;
+}
+.row input {
+  width: 28rem;
+  height: 2.2rem;
+  border-radius: 5px;
+  border: 1px solid var(--color-green);
+}
+#description input {
+  height: 8.5rem;
+}
+::placeholder {
+  color: var(--color-black);
+  opacity: 1;
+}
+.submitBtn {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  height: 47px;
+  padding: 13px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}
