@@ -1,0 +1,14 @@
+.wrapper {
+  margin: auto;
+  padding: 30px;
+}
+.song {
+  width: 59px;
+  height: 64px;
+  border-radius: 4px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}

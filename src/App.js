@@ -7,6 +7,10 @@ import { Outlet } from "react-router-dom";
 import MusicPlayer from "./Components/MusicPlayer/MusicPlayer";
 import FeedbackModal from "./Components/FeedbackModal/FeedbackModal";
 
+import albumData from "./assets/album.json";
+import AlbumPage from "./pages/Album Details Page/AlbumPage";
+const { title, image, songs, description, follows } = albumData;
+
 function App() {
   // const [searchData, setSearchData] = useState("");
   const [data, setData] = useState({});
@@ -51,7 +55,8 @@ function App() {
         searchData={[...topAlbums, ...newAlbums]}
         handleFeedbackBtn={handleOpenFeedbackModal}
       />
-      <Outlet context={{ data: { topAlbums, newAlbums, songs } }} />
+      <AlbumPage albumData={albumData} />
+      {/* <Outlet context={{ data: { topAlbums, newAlbums, songs } }} /> */}
       <MusicPlayer />
       <FeedbackModal
         isOpen={isFeedbackModalOpen}

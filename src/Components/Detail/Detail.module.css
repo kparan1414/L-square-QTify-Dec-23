@@ -1,0 +1,63 @@
+.wrapper {
+  margin: 0px auto;
+  /* border: 1px solid red; */
+  /* height: 29rem; */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+.icon {
+  width: 18rem;
+  height: 20.5rem;
+  border-radius: 20px;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  width: 41rem;
+  /* border: 1px solid blue; */
+  padding: 5px 20px;
+}
+.subDetails {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.9;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: var(--color-white);
+}
+.btnContainer {
+  display: flex;
+  gap: 16px;
+}
+#addToLibBtn {
+  background-color: var(--color-black);
+  color: var(--color-green);
+  height: 47px;
+  padding: 10px, 16px;
+  border-radius: 12px;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 700;
+}
+#shuffleBtn {
+  background-color: var(--color-green);
+  color: var(--color-white);
+  height: 47px;
+  padding: 13px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 700;
+}

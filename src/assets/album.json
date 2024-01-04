@@ -1,0 +1,458 @@
+{
+  "id": "7849cc7a-dec5-4d4f-92a9-d69e8c850773",
+  "title": "Blind Bike",
+  "description": "Nemo eligendi fugiat labore alias.\nUllam ratione commodi expedita praesentium.\nPorro repudiandae ipsam.\nPorro temporibus itaque harum est odit vero quia.",
+  "follows": 2202,
+  "image": "https://images.pexels.com/photos/2792157/pexels-photo-2792157.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+  "slug": "blind-bike",
+  "songs": [
+    {
+      "id": "68c9becc-fd2f-45f9-9e0b-299844270d65",
+      "title": "All Along the Watchtower",
+      "artists": ["Melvin Breitenberg"],
+      "genre": {
+        "key": "blues",
+        "label": "Blues"
+      },
+      "likes": 45050,
+      "image": "https://images.pexels.com/photos/672532/pexels-photo-672532.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 54684
+    },
+    {
+      "id": "f791a0a2-04df-4120-bb2f-ab0ccb16b3b4",
+      "title": "Frankenstein",
+      "artists": ["Steve Murray"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 7026,
+      "image": "https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 24932
+    },
+    {
+      "id": "d63cfa68-53bc-48b9-b042-88299ad1bf8f",
+      "title": "Hero",
+      "artists": ["Ralph Ruecker"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 60612,
+      "image": "https://images.pexels.com/photos/10042038/pexels-photo-10042038.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 27677
+    },
+    {
+      "id": "7e5dcaae-63a5-4c70-8b43-e0f34fb4932c",
+      "title": "Look Away",
+      "artists": ["Mr. Johnny Marvin"],
+      "genre": {
+        "key": "blues",
+        "label": "Blues"
+      },
+      "likes": 77836,
+      "image": "https://images.pexels.com/photos/4577122/pexels-photo-4577122.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 55391
+    },
+    {
+      "id": "85defb3f-1a51-4ac6-8f8d-d2122bcc24c2",
+      "title": "Return to Sender",
+      "artists": ["Peter Gerlach MD", "Rachel Leannon", "Celia Marvin"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 67033,
+      "image": "https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 51270
+    },
+    {
+      "id": "a3f1fa62-f24a-4fa6-876d-5e82ab687ac5",
+      "title": "Look Away",
+      "artists": ["Sylvester Pacocha III", "Rodolfo Considine III"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 13908,
+      "image": "https://images.pexels.com/photos/391831/pexels-photo-391831.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 27450
+    },
+    {
+      "id": "6bf7b902-9465-4c36-abf7-d6e0faac30db",
+      "title": "Hello",
+      "artists": ["Aaron Conroy", "Miguel Hudson"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 59267,
+      "image": "https://images.pexels.com/photos/316137/pexels-photo-316137.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 48600
+    },
+    {
+      "id": "4a76dc98-94af-42d2-a09d-d9d843830a3d",
+      "title": "Hey There",
+      "artists": ["Glen Schamberger", "Priscilla Hodkiewicz"],
+      "genre": {
+        "key": "blues",
+        "label": "Blues"
+      },
+      "likes": 75958,
+      "image": "https://images.pexels.com/photos/417430/pexels-photo-417430.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 32370
+    },
+    {
+      "id": "63bec793-b237-458d-ab30-235cd2ed6773",
+      "title": "Save the Last Dance For Me",
+      "artists": ["Irving Wolff"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 29245,
+      "image": "https://images.pexels.com/photos/1619779/pexels-photo-1619779.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 48320
+    },
+    {
+      "id": "90795b4f-1818-4a90-98d1-5ab1793f56a5",
+      "title": "Because I Love You (The Postman Song)",
+      "artists": ["Dr. Cassandra Roob"],
+      "genre": {
+        "key": "blues",
+        "label": "Blues"
+      },
+      "likes": 89159,
+      "image": "https://images.pexels.com/photos/1755385/pexels-photo-1755385.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 46916
+    },
+    {
+      "id": "064a938b-2aad-4f71-9ff5-2a7a57610947",
+      "title": "Rock Around the Clock",
+      "artists": ["Sandy Sanford I", "Francis Emard", "Gerard Ziemann"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 80008,
+      "image": "https://images.pexels.com/photos/1996042/pexels-photo-1996042.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 49479
+    },
+    {
+      "id": "cfcf1d1c-45fe-4847-ac17-f3f6b464a381",
+      "title": "Black Or White",
+      "artists": ["Carmen Walter", "Clara McCullough"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 67479,
+      "image": "https://images.pexels.com/photos/10714624/pexels-photo-10714624.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 34263
+    },
+    {
+      "id": "fe3a2347-f5fe-40ea-a0c9-18b79fc1830e",
+      "title": "Boom Boom Pow",
+      "artists": ["Lena Kuhn"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 28469,
+      "image": "https://images.pexels.com/photos/313032/pexels-photo-313032.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 58858
+    },
+    {
+      "id": "f0da2f7e-70f2-4581-a289-32451269b171",
+      "title": "Wichita Lineman",
+      "artists": [
+        "Miss Kristen Langosh",
+        "Ryan Quitzon",
+        "Marjorie Schimmel III"
+      ],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 38322,
+      "image": "https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 47530
+    },
+    {
+      "id": "89285448-cb13-4d59-8889-dcfbe73cfc63",
+      "title": "He's a Rebel",
+      "artists": ["Terry Pfannerstill", "Lonnie Mosciski"],
+      "genre": {
+        "key": "blues",
+        "label": "Blues"
+      },
+      "likes": 84198,
+      "image": "https://images.pexels.com/photos/3961942/pexels-photo-3961942.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 45485
+    },
+    {
+      "id": "123c21e7-efc1-4839-8d65-05ea8ecb6623",
+      "title": "Big Bad John",
+      "artists": ["Bernard Wolf", "Camille Kassulke"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 80546,
+      "image": "https://images.pexels.com/photos/1995730/pexels-photo-1995730.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 44210
+    },
+    {
+      "id": "d92fc5cb-54a0-4afc-a759-1d754be22e33",
+      "title": "Nobody Does it Better",
+      "artists": ["Luke Turner DVM", "Ms. Jan Heathcote PhD"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 22515,
+      "image": "https://images.pexels.com/photos/534174/pexels-photo-534174.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 41306
+    },
+    {
+      "id": "da87d433-e737-4f3d-8c5c-75da1480a7bf",
+      "title": "My Life",
+      "artists": ["Cody Bradtke"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 13290,
+      "image": "https://images.pexels.com/photos/8929333/pexels-photo-8929333.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 26837
+    },
+    {
+      "id": "efc6e6f7-0d31-4463-8520-ebdbb1ba1eac",
+      "title": "I Wanna Dance With Somebody (Who Loves Me)",
+      "artists": ["Julian Tillman"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 25355,
+      "image": "https://images.pexels.com/photos/629142/pexels-photo-629142.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 25084
+    },
+    {
+      "id": "08cefb39-e3cd-475a-bcee-d4acbaefc75b",
+      "title": "What a Fool Believes",
+      "artists": ["Ms. Elijah Rogahn", "Simon Jacobs"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 49929,
+      "image": "https://images.pexels.com/photos/3064079/pexels-photo-3064079.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 26522
+    },
+    {
+      "id": "22c89ddd-3777-4496-8a38-e5cea79724e9",
+      "title": "Working My Way Back to You",
+      "artists": ["Kerry Dickinson", "Ms. Timmy Hansen"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 99746,
+      "image": "https://images.pexels.com/photos/936722/pexels-photo-936722.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 33671
+    },
+    {
+      "id": "1673c93f-3514-4683-8951-ba0c43035d26",
+      "title": "Don't You Want Me",
+      "artists": ["Brandon Beahan"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 63550,
+      "image": "https://images.pexels.com/photos/761543/pexels-photo-761543.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 40597
+    },
+    {
+      "id": "a5c7fc7d-06ba-4747-ad7a-da42701c39be",
+      "title": "Daydream Believer",
+      "artists": ["Miss Larry Gottlieb", "Mrs. Jim Kirlin"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 42051,
+      "image": "https://images.pexels.com/photos/2246950/pexels-photo-2246950.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 39674
+    },
+    {
+      "id": "df9a5d13-523b-4434-a850-85016b95e8c3",
+      "title": "Delicado",
+      "artists": ["Bridget Lubowitz", "Robert Raynor"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 32019,
+      "image": "https://images.pexels.com/photos/439391/pexels-photo-439391.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 34808
+    },
+    {
+      "id": "da1da461-b5ae-4b03-a20c-1b09ef54340f",
+      "title": "Never Gonna Give You Up",
+      "artists": ["Jacquelyn Koepp"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 75021,
+      "image": "https://images.pexels.com/photos/273209/pexels-photo-273209.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 49783
+    },
+    {
+      "id": "9a3f1422-4eeb-449f-b741-36f3719db58a",
+      "title": "How to Save a Life",
+      "artists": ["Alejandro Trantow"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 39965,
+      "image": "https://images.pexels.com/photos/2479967/pexels-photo-2479967.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 59176
+    },
+    {
+      "id": "ad3cdc5a-5e55-4156-bec8-fcf9cc0d7778",
+      "title": "Up Around the Bend",
+      "artists": ["Judy O'Hara", "Jorge Kerluke", "Daniel Wisoky"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 57036,
+      "image": "https://images.pexels.com/photos/3214944/pexels-photo-3214944.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 46063
+    },
+    {
+      "id": "b2fdd409-978a-42d9-a49c-6402acc28101",
+      "title": "Bad Day",
+      "artists": ["Dr. Guadalupe Smith"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 96208,
+      "image": "https://images.pexels.com/photos/1770809/pexels-photo-1770809.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 38588
+    },
+    {
+      "id": "e86bba81-3c73-4833-bbc9-a99038531cad",
+      "title": "Moonlight Cocktail",
+      "artists": ["Harry Shanahan", "Dr. Clara Wunsch"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 38774,
+      "image": "https://images.pexels.com/photos/123027/pexels-photo-123027.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 46042
+    },
+    {
+      "id": "66a7fd61-0b51-4525-8697-1572a38f383c",
+      "title": "I Can Dream",
+      "artists": ["Marjorie Jacobs", "Gary Gutkowski"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 45338,
+      "image": "https://images.pexels.com/photos/210804/pexels-photo-210804.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 53921
+    },
+    {
+      "id": "582de457-5343-42e4-b419-d13d0e614614",
+      "title": "Somebody to Love",
+      "artists": ["Laura Effertz"],
+      "genre": {
+        "key": "rock",
+        "label": "Rock"
+      },
+      "likes": 67543,
+      "image": "https://images.pexels.com/photos/5092153/pexels-photo-5092153.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 43449
+    },
+    {
+      "id": "cec45c86-86e8-4ada-9f09-9009db0e7050",
+      "title": "Fallin'",
+      "artists": ["Desiree Cremin"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 99807,
+      "image": "https://images.pexels.com/photos/10163188/pexels-photo-10163188.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 50497
+    },
+    {
+      "id": "a8eeb271-36cd-4da7-8bef-e10775e5438f",
+      "title": "Burn",
+      "artists": ["Nina Boyle II"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 54538,
+      "image": "https://images.pexels.com/photos/242124/pexels-photo-242124.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 59855
+    },
+    {
+      "id": "bf8ba97e-35b2-43fa-a14c-018e6cde5629",
+      "title": "The Way You Look Tonight",
+      "artists": ["Felix Klein"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 11921,
+      "image": "https://images.pexels.com/photos/351265/pexels-photo-351265.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 40092
+    },
+    {
+      "id": "75eebde6-09b4-4fa3-a527-7f0f6d607b7a",
+      "title": "Since U Been Gone",
+      "artists": ["Marty Wilderman"],
+      "genre": {
+        "key": "pop",
+        "label": "Pop"
+      },
+      "likes": 17171,
+      "image": "https://images.pexels.com/photos/1587699/pexels-photo-1587699.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 32391
+    },
+    {
+      "id": "4a3bf349-6cfa-4d5c-83f0-07b150ad4ec3",
+      "title": "I Gotta Feeling",
+      "artists": ["Nathan Romaguera MD", "Sheila Gleason"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 87222,
+      "image": "https://images.pexels.com/photos/2304917/pexels-photo-2304917.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 28069
+    },
+    {
+      "id": "aae89a3e-f023-4a71-91b2-1c3ebdc50240",
+      "title": "Hey Paula",
+      "artists": ["Patrick Upton", "Lois Bahringer"],
+      "genre": {
+        "key": "jazz",
+        "label": "Jazz"
+      },
+      "likes": 32324,
+      "image": "https://images.pexels.com/photos/242133/pexels-photo-242133.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=1200&w=800",
+      "durationInMs": 58250
+    }
+  ]
+}
